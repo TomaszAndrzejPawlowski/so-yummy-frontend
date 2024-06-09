@@ -46,8 +46,8 @@ export const verifyUser = createAsyncThunk("auth/info", async (_, thunkAPI) => {
   const store = thunkAPI.getState();
   const token = store.auth.token;
   if (token) {
-    setAuthToken(token);
     try {
+      setAuthToken(token);
       const response = await axios.get("auth/info");
       return response.data;
     } catch (err) {

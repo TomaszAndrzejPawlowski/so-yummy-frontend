@@ -1,0 +1,10 @@
+.trash__svg {
+  width: 24px;
+  height: 24px;
+  stroke: #22252a;
+  fill: none;
+}
+
+.trash__button {
+  background-color: #ebf3d4;
+}

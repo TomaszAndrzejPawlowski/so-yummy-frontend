@@ -1,5 +1,7 @@
 import { Helmet } from "react-helmet";
-import { NavLink } from "react-router-dom";
+import css from "./WelcomePage.module.css";
+import icons from "../../img/svg/iconsSprite.svg";
+import AuthNav from "./components/AuthNav/AuthNav";
 
 const WelcomePage = () => {
   return (
@@ -8,8 +10,8 @@ const WelcomePage = () => {
         <title>Welcome</title>
       </Helmet>
       <div>
-        <svg width={"100px"} height={"100px"}>
-          <use href="../../img/svg/iconsSprite.svg#icon-logo"></use>
+        <svg className={css.logo__svg}>
+          <use href={`${icons}#icon-logo`} />
         </svg>
         <h2>Welcome to the app!</h2>
         <p>
@@ -17,8 +19,7 @@ const WelcomePage = () => {
           designed to be your very own digital cookbook. You can easily save and
           retrieve your own recipes at any time.
         </p>
-        <NavLink to="/register">Registration</NavLink>
-        <NavLink to="/login">Sign in</NavLink>
+        <AuthNav />
       </div>
     </main>
   );

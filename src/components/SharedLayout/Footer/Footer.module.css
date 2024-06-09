@@ -1,0 +1,11 @@
+.footer__section {
+  background-color: #22252a;
+  color: #fafafa;
+}
+
+.footer_logo__svg {
+  width: 44px;
+  height: 44px;
+  fill: #ebf3d4;
+  stroke: #8baa36;
+}

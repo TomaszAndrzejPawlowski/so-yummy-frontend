@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/57.d4b84d38.chunk.css","mappings":"AAAA,iCAGE,cAAe,CACf,SAAU,CAFV,WAAY,CADZ,UAIF,CAEA,qCACE,wBACF","sources":["pages/MyRecipesPage/MyRecipesPage.module.css"],"sourcesContent":[".trash__svg {\n  width: 24px;\n  height: 24px;\n  stroke: #fafafa;\n  fill: none;\n}\n\n.trash__button {\n  background-color: #8baa36;\n}\n"],"names":[],"sourceRoot":""}

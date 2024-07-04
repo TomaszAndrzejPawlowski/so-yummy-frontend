@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/980.aef45001.chunk.css","mappings":"AAAA,gCAGE,cAAe,CACf,SAAU,CAFV,WAAY,CADZ,UAIF,CAEA,mCACE,wBACF","sources":["pages/FavoritePage/FavoritePage.module.css"],"sourcesContent":[".trash__svg {\n  width: 24px;\n  height: 24px;\n  stroke: #22252a;\n  fill: none;\n}\n\n.trash__button {\n  background-color: #ebf3d4;\n}\n"],"names":[],"sourceRoot":""}

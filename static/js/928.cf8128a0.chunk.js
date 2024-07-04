@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkso_yummy_frontend=self.webpackChunkso_yummy_frontend||[]).push([[928],{5928:(e,n,r)=>{r.r(n),r.d(n,{default:()=>t});var s=r(1591),o=r(579);const t=()=>(0,o.jsxs)(o.Fragment,{children:[(0,o.jsx)(s.m,{children:(0,o.jsx)("title",{children:"Not found"})}),(0,o.jsx)("h3",{children:"We are sorry,"}),(0,o.jsx)("p",{children:"but the page you were looking for can't be found."})]})}}]);
+//# sourceMappingURL=928.cf8128a0.chunk.js.map

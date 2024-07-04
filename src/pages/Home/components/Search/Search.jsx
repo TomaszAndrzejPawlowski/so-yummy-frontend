@@ -5,6 +5,7 @@ import { searchByTitle } from "../../../../redux/recipes/operations";
 const Search = () => {
   const [urlSearchParams, setUrlSearchParams] = useSearchParams();
   const dispatch = useDispatch();
+  console.log(urlSearchParams);
 
   const handleSubmit = (e) => {
     e.preventDefault();

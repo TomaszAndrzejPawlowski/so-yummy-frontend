@@ -23,7 +23,7 @@ const FavoritePage = () => {
       dispatch(fetchFavoriteRecipes());
     };
     fetchData();
-  }, []);
+  }, [dispatch]);
 
   const handleRemoveFromFav = (id) => {
     const newArray = [...displayedRecipes];

@@ -22,7 +22,7 @@ const MyRecipesPage = () => {
       dispatch(fetchOwnedRecipes());
     };
     fetchData();
-  }, []);
+  }, [dispatch]);
 
   const handleRemoveFromFav = (id) => {
     const newArray = [...displayedRecipes];

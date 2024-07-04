@@ -31,7 +31,7 @@ const Footer = () => {
       </section>
       <div>
         <p> &copy; 2024 Tomasz Andrzej Pawłowski All Rights Reserved.</p>
-        <a href="#">Terms of Service</a>
+        {/* <a href="#">Terms of Service</a> */}
       </div>
     </footer>
   );

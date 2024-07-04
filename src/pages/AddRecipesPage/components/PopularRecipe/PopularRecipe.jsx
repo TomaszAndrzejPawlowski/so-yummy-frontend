@@ -14,7 +14,7 @@ const PopularRecipe = () => {
       dispatch(fetchPopularRecipes());
     };
     fetchData();
-  }, []);
+  }, [dispatch]);
 
   console.log(popularRecipes);
 

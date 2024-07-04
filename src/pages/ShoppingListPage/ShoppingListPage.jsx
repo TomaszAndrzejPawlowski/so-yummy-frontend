@@ -18,7 +18,7 @@ const ShoppingListPage = () => {
       setItems(shoppingList);
     };
     fetchData();
-  }, []);
+  }, [dispatch, shoppingList]);
 
   return (
     <>

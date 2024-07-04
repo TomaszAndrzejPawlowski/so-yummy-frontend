@@ -1,7 +1,8 @@
 import axios from "axios";
 import { createAsyncThunk } from "@reduxjs/toolkit";
 
-axios.defaults.baseURL = "http://localhost:3030/api/";
+axios.defaults.baseURL = "https://soyummybackend-46te.onrender.com/api/";
+// "http://localhost:3030/api/";
 
 export const fetchCategories = createAsyncThunk(
   "/recipes/category-list",

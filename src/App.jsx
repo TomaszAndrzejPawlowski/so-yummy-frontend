@@ -64,31 +64,47 @@ export const App = () => {
           />
           <Route
             path="/categories/:category"
-            element={<PrivateRoute component={CategoriesPage} path="/" />}
+            element={
+              <PrivateRoute
+                component={CategoriesPage}
+                path="/categories/:category"
+              />
+            }
           />
           <Route
             path="/add"
-            element={<PrivateRoute component={AddRecipesPage} path="/" />}
+            element={<PrivateRoute component={AddRecipesPage} path="/add" />}
           />
           <Route
             path="/my"
-            element={<PrivateRoute component={MyRecipesPage} path="/" />}
+            element={<PrivateRoute component={MyRecipesPage} path="/my" />}
           />
           <Route
             path="/favorite"
-            element={<PrivateRoute component={FavoritePage} path="/" />}
+            element={<PrivateRoute component={FavoritePage} path="/favorite" />}
           />
           <Route
             path="/shopping-list"
-            element={<PrivateRoute component={ShoppingListPage} path="/" />}
+            element={
+              <PrivateRoute
+                component={ShoppingListPage}
+                path="/shopping-list"
+              />
+            }
           />
           <Route
             path="/search"
-            element={<PrivateRoute component={SearchPage} path="/" />}
+            element={<PrivateRoute component={SearchPage} path="/search" />}
+          />
+          <Route
+            path="/search/:title"
+            element={
+              <PrivateRoute component={SearchPage} path="/search/:title" />
+            }
           />
           <Route
             path="/recipe/:id"
-            element={<PrivateRoute component={RecipePage} path="/" />}
+            element={<PrivateRoute component={RecipePage} path="/recipe/:id" />}
           />
           <Route
             path="*"

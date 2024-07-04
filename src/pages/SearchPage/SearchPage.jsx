@@ -1,4 +1,7 @@
 import { Helmet } from "react-helmet";
+import MainPageTitle from "../../components/MainPageTitle/MainPageTitle";
+import SearchBar from "./components/SearchBar/SearchBar";
+import SearchedRecipesList from "./components/SearchedRecipesList/SearchedRecipesList";
 
 const SearchPage = () => {
   return (
@@ -6,7 +9,9 @@ const SearchPage = () => {
       <Helmet>
         <title>Search</title>
       </Helmet>
-      <h2>Search</h2>
+      <MainPageTitle title="Search" />
+      <SearchBar />
+      <SearchedRecipesList />
     </>
   );
 };
